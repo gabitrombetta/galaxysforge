@@ -1,6 +1,6 @@
 .introducao-bg{
     background-color: var(--cor-12);
-    box-shadow: inset 0px -120px #fff;
+    box-shadow: inset 0px -120px var(--cor-0);
 }
 
 .introducao{
@@ -49,9 +49,9 @@
 
 @media (max-width: 800px){
     .introducao-bg{
-        background-color: #111111;
+        background-color: var(--cor-11);
         padding-top: 40px;
-        box-shadow: inset 0 -20px #fff;
+        box-shadow: inset 0 -20px var(--cor-0);
     }
     .introducao {
         grid-template-columns: 1fr;
