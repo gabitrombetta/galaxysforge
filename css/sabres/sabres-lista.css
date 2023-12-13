@@ -1,0 +1,50 @@
+.sabres-lista{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.sabres-lista h2{
+    padding-bottom: 40px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.sabres-lista ul{
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sabres-lista a{
+    display: block;
+}
+
+.sabres-lista img{
+    margin-bottom: 16px;
+}
+
+.sabres-lista h3{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.sabres-lista h3::before{
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+    background-color: var(--cor-p1);
+}
+
+.sabres-lista li span{
+    padding-left: 20px;
+}
