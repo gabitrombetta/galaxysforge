@@ -14,10 +14,15 @@
 @import "./home/depoimento.css";
 @import "./home/criecomigo.css";
 
-
-
 /* Sabres */
-@import "./sabres/sabres-lista.css"
+@import "./sabres/sabres-lista.css";
+@import "./sabres/sabres.css";
+
+
+/* Termos */
+@import "./termos/termos.css";
+
+
 
 
 
