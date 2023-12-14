@@ -1,5 +1,6 @@
 .sabres-bg{
-    background-color: var(--cor-11);
+    background-image: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+    
 }
 
 .sabres{
@@ -73,6 +74,32 @@
 .sabres-conteudo img{
     width: 20px;
     margin-right: 8px;
+}
+
+@media (max-width: 800px){
+    .sabres-bg{
+        background: var(--cor-11);
+    }
+    .sabres{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px){
+    .sabres-conteudo{
+        grid-template-columns: 1fr;
+    }
+    .sabres ul{
+        font-size: 1rem;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 32px;
+    }
+    .sabres a{
+        place-self: start;
+    }
 }
 
 
