@@ -8,6 +8,8 @@
 
 /* Home */
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
+
 
 /* Sabres */
 @import "./sabres/sabres-lista.css"
