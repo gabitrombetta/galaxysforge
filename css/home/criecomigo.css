@@ -1,6 +1,6 @@
 .criecomigo-bg{
     background-color: var(--cor-11);
-    box-shadow: inset 0px 80px var(--cor-0), inset 0px -80px var(--cor-0);
+    box-shadow: inset 0px 80px var(--cor-0), inset 0px -80px var(--cor-12);
 }
 
 .criecomigo{
@@ -38,8 +38,8 @@
 @media (max-width:800px){
     .criecomigo-bg{
         background-color: var(--cor-11);
-        padding-top: 20px;
-        box-shadow: inset 0 -60px var(--cor-0);
+        padding-top: 0px;
+        box-shadow: inset 0 -60px var(--cor-12);
     }
     .criecomigo {
         grid-template-columns: 1fr;
@@ -49,7 +49,7 @@
         padding-bottom: 0px;
     }
     .criecomigo-conteudo h1{
-        padding-top: 40px;
+        padding-top: 20px;
         margin-bottom: 16px;
     }
     .criecomigo-conteudo p{

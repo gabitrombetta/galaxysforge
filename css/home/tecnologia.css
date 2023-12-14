@@ -56,9 +56,11 @@
 @media (max-width: 800px){
     .tecnologia-bg{
         box-shadow: initial;
+        
     }
     .tecnologia{
         grid-template-columns: 1fr;
+        margin-bottom: 0px;
     }
     .tecnologia-conteudo{
         padding-top: 60px;
