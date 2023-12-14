@@ -18,6 +18,9 @@
 @import "./sabres/sabres-lista.css";
 @import "./sabres/sabres.css";
 
+/* Sabre Interna */
+@import "./sabre/sabre.css";
+
 
 /* Termos */
 @import "./termos/termos.css";
