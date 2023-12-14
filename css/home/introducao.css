@@ -22,7 +22,6 @@
 
 .introducao img{
     height: 100%;
-    margin-bottom: -120px;
     object-fit: cover;
     border-radius: 4px;
 }
