@@ -27,8 +27,11 @@
 @import "./criecomigo/criecomigo-interna.css";
 
 
-/* Contato */
+/* Orçamento */
 @import "./contato/contato.css";
+
+/* Contato */
+@import "./orcamento/orcamento.css";
 
 
 /* Termos */
