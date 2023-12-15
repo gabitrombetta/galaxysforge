@@ -7,6 +7,8 @@
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
+
 
 /* Home */
 @import "./home/introducao.css";
@@ -20,6 +22,10 @@
 
 /* Sabre Interna */
 @import "./sabre/sabre.css";
+
+
+/* Contato */
+@import "./contato/contato.css";
 
 
 /* Termos */
