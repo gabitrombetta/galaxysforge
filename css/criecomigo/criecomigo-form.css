@@ -1,13 +1,19 @@
 .criecomigo-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column: 1/-1;
+    gap: 40px;
     margin-top: 40px;
     background-color: var(--cor-0);
     padding: 60px;
     box-shadow: 0 1px 2px rgb(0, 0, 0, .1);
     border-radius: 5px;
+    margin-top: 120px;
+    margin-bottom: 60px;
 }
 
 .criecomigo-form label{
+    cursor: pointer;
     display: block;
     font: 600 1rem/1.5 "Poppins", sans-serif;
     margin-bottom: 4px;
@@ -34,14 +40,47 @@
     box-shadow: 0 0 0 2px #caf;
 }
 
+select{
+    width: 100%;
+    cursor: pointer;
+    padding: 12px;
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    border: 1px solid var(--cor-2);
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    background: var(--cor-1) url(../../icones/seta-abrir/seta.svg) no-repeat center;
+    background-position: 95% 50%;
+}
+
+select:focus{
+    outline: none;
+    border-color: var(--cor-p1);
+    box-shadow: 0 0 0 2px #caf;
+    background: var(--cor-1) url(../../icones/seta-abrir/seta-abrir-otimizado.svg) no-repeat center;
+    background-position: 95% 50%;
+}
+
+option{
+    background: var(--cor-2)
+}
+
+@media (max-width:800px){
+    .criecomigo-form{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width:600px){
     .criecomigo-form{
         grid-template-columns: 1fr;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
     .criecomigo-form .col-2{
         grid-column: 1;
-    }
-    .criecomigo-form{
-        margin-top: 40px;
     }
 }
