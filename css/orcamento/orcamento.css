@@ -27,7 +27,7 @@
 
 .orcamento-produto, .orcamento-dados{
     padding: 60px;
-    box-shadow: 9 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
 }
 
 .orcamento-produto{
@@ -46,6 +46,3 @@
     background-color: var(--cor-0);
 }
 
-.orcamento-conteudo{
-    
-}
