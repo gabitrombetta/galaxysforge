@@ -27,12 +27,12 @@
 @import "./criecomigo/criecomigo-interna.css";
 @import "./criecomigo/criecomigo-form.css";
 
-
-
-/* Orçamento */
-@import "./contato/contato.css";
-
 /* Contato */
+@import "./contato/contato.css";
+@import "./contato/perguntas.css";
+
+
+/* Orçamentos */
 @import "./orcamento/orcamento.css";
 
 
