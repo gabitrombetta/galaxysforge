@@ -114,3 +114,41 @@
     margin-top: 40px;
 }
 
+.checkbox{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox label{
+    margin: 0px;
+}
+
+.checkbox input{
+    margin: 0px;
+    width: 15px;
+    height: 15px;
+}
+
+@media (max-width:1200px){
+    .checkbox{
+        align-items: start;
+    }
+    .checkbox input{
+        margin-top: 4px;
+    }
+}
+
+@media (max-width:800px){
+    .orcamento{
+        grid-template-columns: 1fr;
+    }
+    .orcamento-produto{
+        border-radius: 5px 5px 0 0;
+    }
+    .orcamento-dados{
+        border-radius: 0 0 5px 5px;
+    }
+}
+
