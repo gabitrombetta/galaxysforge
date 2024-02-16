@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sabres de Luz de alta precisão e qualidade,  feitos sob medida para o você. Duele com autênticidade com um sabre de luz Galaxy’s Forge.">
     <title>Galaxy's Forge - Sabres de Luz</title>
-    <link rel="icon" href="favicon-galaxysforge.svg" type="image/x-icon">
+    <link rel="icon" href="./favicon-galaxysforge.svg" type="image/svg+xml">
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 <body> 
     <header class="header-bg">
@@ -31,11 +33,11 @@
     <main class="introducao-bg">
         <div class="introducao container">
             <div class="introducao-conteudo">
-                <h1 class="font-1-xxl cor-0">Sabres de Luz feitos sob medida<span class="cor-p1">.</span></h1>
-                <p class="font-2-l cor-5">Sabres de Luz de alta precisão e qualidade,  feitos sob medida para o você. Duele com autênticidade com um sabre de luz Galaxy’s Forge.</p>
-                <a class="botao" href="./sabresdeluz.html">Selecione o seu</a>
+                <h1 class="font-1-xxl cor-0 fadeInDown " data-anime="200">Sabres de Luz feitos sob medida<span class="cor-p1">.</span></h1>
+                <p class="font-2-l cor-5 fadeInDown" data-anime="400">Sabres de Luz de alta precisão e qualidade,  feitos sob medida para o você. Duele com autênticidade com um sabre de luz Galaxy’s Forge.</p>
+                <a class="botao fadeInDown" data-anime="600" href="./sabresdeluz.html">Selecione o seu</a>
             </div>
-            <div>
+            <div class="fadeInDown" data-anime="800">
                 <img src="img/gerais/otimizado/img-intro-c.jpg" alt="Sabres de Luz">
             </div>
         </div>
@@ -161,6 +163,8 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+    
 </body>
 </html>
